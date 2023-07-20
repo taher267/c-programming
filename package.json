@@ -1,0 +1,11 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gcc bismillah.c -o bismillah",
+    "run": "./bismillah",
+    "b:r": "gcc bismillah.c -o bismillah&&./bismillah"
+  }
+}
