@@ -1,0 +1,18 @@
+https://prnt.sc/v_ZK4MfimRf1
+Integer     Float       Character
+short       Float       Char
+int         Double
+Long        Long Double
+Long Long
+
+Integer Data Types In C Language
+
+Type                    Size In Bit      size In Byte           Range           Formatter
+Short Int                   16              2              -32768 to 32767      %hd
+Unsigned Short Int          16              2                   0 to 65535      %hu
+Unsigned Int                32              4               0 to 4,294,967,295  %u
+int                         32              4     -2147483648 to 2147483647     %d
+Unsigned Long Int           32              4               0 to 4,294,967,295  %lu
+Long Int                    32              4     -2147483648 to 2147483647     %ld
+Unsigned Long Int           64              8      0 to 18446744073709551615    %llu
+Long Int                    32              4     -(2^63) to (2^63)          %lld
