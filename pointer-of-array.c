@@ -5,14 +5,6 @@ int main()
 {
     int nums[5] = {7, 8, 9, 4, 5};
     int i;
-    // int *pNum = &num;
-    // printf("Address \t Name\t Value \n");
-    // printf("%p \t %s \t %d \n", pNum, "num", num);
-    // printf("%p \t %s \t %d \n", &pNum, "pNum", pNum);
-    // printf("*pNum: %d \n", *pNum);
-    // // change value by pointer
-    // *pNum = 35;
-    // printf("*pNum: %d \n", *pNum);
     printf("Address \t Value \n");
     printf("%p \n", nums);
     for (i = 0; i < 5; i++)
