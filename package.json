@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "gcc ./array-address.c -o array-address && ./array-address"
+    "start": "gcc ./array-address.c -o array-address && ./array-address",
+    "p-of-a": "gcc ./pointer-of-array.c -o pointer-of-array && ./pointer-of-array"
   }
 }
