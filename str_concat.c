@@ -5,6 +5,9 @@ int main()
 {
     char sen[100] = "ABC";
     strcat(sen, " DEF"); // String Concat
-    printf("Print: %s", sen);
+    printf("Concat String: %s\n", sen);
+    // String Replace/ reassign value
+    strcpy(sen, "ABC");
+    printf("Replace String: %s\n", sen);
     return 0;
 }
