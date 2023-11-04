@@ -1,2 +1,4 @@
 # git rm ./config/.env --cached
 /*.exe
+writeFile.txt
+writeFile.json
